@@ -1,0 +1,61 @@
+﻿@model List<ModelEF.Model.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+@section header{
+    Danh mục sản phẩm
+}
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        DataTable Example
+        <a href="../Category/Create" class="btn btn-info pull-right" style="float:right;">Thêm mới</a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+
+                    <tr>
+                        <th style="width:150px; text-align:center;">
+                            Mã danh mục
+                        </th>
+                        <th style="width:600px; text-align:center;">
+                            Tên danh mục
+                        </th>
+                    
+                        <th style=" text-align:center;">Thao Tác</th>
+                    </tr>
+                </thead>
+             
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style=" text-align:center;">
+                                @Html.DisplayFor(modelItem => item.IDCategory)
+                            </td>
+                            <td style=" text-align:center;">
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                        
+                            <td style=" text-align:center;">
+                                @Html.ActionLink("Edit", "Edit", new { id = item.IDCategory }) |
+                                
+                                @Html.ActionLink("Delete", "Delete", new { id = item.IDCategory })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+              
+
+            </table>
+        </div>
+    </div>
+</div>

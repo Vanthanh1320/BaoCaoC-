@@ -1,0 +1,16 @@
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\ModelEF.dll.config
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\ModelEF.dll
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\ModelEF.pdb
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\EntityFramework.dll
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\EntityFramework.xml
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\obj\Debug\ModelEF.dll
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\obj\Debug\ModelEF.pdb
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\PagedList.dll
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\PagedList.Mvc.dll
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\PagedList.xml
+D:\Documents\ProjectVisual Studio\VoVanThanh\ModelEF\bin\Debug\PagedList.Mvc.xml
